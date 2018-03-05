@@ -24,7 +24,7 @@ mvnpdf <- function(x, mean =  rep(0, nrow(x)),
   ## test encore
   ## coucou Emilie
   ##hello darling, how are you today ?
-
+  ## can I have a cup of tea please ?
   y <- NULL
   for (j in 1:n) {
     yj <- - p/2 * log(2*pi) - 0.5 * LogDetvarcovM -
