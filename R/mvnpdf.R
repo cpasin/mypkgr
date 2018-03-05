@@ -21,6 +21,8 @@ mvnpdf <- function(x, mean =  rep(0, nrow(x)),
   DetvarcoM<-det(varcovM)
   ## test changement
   ## commentaire
+  ## test encore
+  ## coucou Emilie
 
   y <- NULL
   for (j in 1:n) {
