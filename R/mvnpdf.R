@@ -20,6 +20,7 @@ mvnpdf <- function(x, mean =  rep(0, nrow(x)),
   LogDetvarcovM <- log(det(varcovM))
   DetvarcoM<-det(varcovM)
   ## test changement
+  ## commentaire
 
   y <- NULL
   for (j in 1:n) {
