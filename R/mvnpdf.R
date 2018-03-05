@@ -25,6 +25,7 @@ mvnpdf <- function(x, mean =  rep(0, nrow(x)),
   ## coucou Emilie
   ##hello darling, how are you today ?
   ## can I have a cup of tea please ?
+  ## test fork
 
   y <- NULL
   for (j in 1:n) {
