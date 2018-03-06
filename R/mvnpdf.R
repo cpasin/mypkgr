@@ -40,5 +40,7 @@ mvnpdf <- function(x, mean =  rep(0, nrow(x)),
     y <- exp(y)
   }
 
-  return(list(x=x,y=y))
+  res<-(list(x=x,y=y))
+  class(res)<-"mvnpdf"
+  return(res)
 }

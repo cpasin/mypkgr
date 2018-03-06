@@ -12,5 +12,5 @@
 #' pdfvalues <- mvnpdf(x=matrix(seq(-3, 3, by = 0.1), nrow = 1), Log=FALSE)
 #' plot(pdfvalues)
 plot.mvnpdf <- function(x, ...) {
-  plot(x$x, x$y, type = "l", ...)
+  graphics::plot(x$x, x$y, type = "l", ...)
 }
